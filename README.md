@@ -36,6 +36,17 @@ This will download the docker images locally.
 
 Then run
 
+go to middleware folder
+edit  file, middleware.env
+
+as default is pointing our Saas app.devaten.com
+
+but that need to change check form ipcofig your IP and edit. middleware.env exmple like this
+
+APP_HOST="http://192.168.1.9:8081"
+
+save and then 
+
 ```
 docker-compose up
 ```
