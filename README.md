@@ -189,5 +189,13 @@ After that open cmd at that location and run docker-compose commands -
 ```
 docker compose pull
 ```
+To pull images locally
 
-``` docker compose up ```
+```
+docker compose up
+```
+To run docker containers
+
+Once its up and running it shows 'Listening and serving HTTP on :8999'.
+
+Now you can Login and do Start/Stop Recordings using Middleware. For that follow the steps mentioned in [How To Use](## How to Use) section of 1st tab Middleware with Devaten SAAS  or you can refer our README.md document for more details that you already get in Middleware Cloned Folder .
