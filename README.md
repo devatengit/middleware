@@ -159,8 +159,8 @@ After that, hit the [localhost:8081](http://localhost:8081) in browser. First lo
 
 
 ***ADMIN CREDENTIALS:*** 
-Username: admin@system.com
-Password: 123456
+```Username: admin@system.com```
+```Password: 123456```
 
 Once You Log in click on Billing tab and select the Package Verification option.
 At the time of signing up for the SAAS application, you received two emails, the Welcome mail, and the Activation Key mail. Verify your Package with this Activation Key.
