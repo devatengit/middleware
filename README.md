@@ -149,7 +149,7 @@ When the swagger page is opened the API endpoints can be tested by opening a tab
 docker-compose down
 ```
 
- ### 2. Middleware With Devaten On-Premise
+ ## 2. ### Middleware With Devaten On-Premise
  
  ### Run Middleware and On-Premise Docker Compose Locally
  
