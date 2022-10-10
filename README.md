@@ -1,9 +1,9 @@
 
 # Devaten Middleware Prometheus
-- [Middleware With Devaten SAAS](#Middleware With Devaten SAAS)
+- ### Middleware With Devaten SAAS
 - ### Middleware With Devaten On-Premise
 
-### Middleware With Devaten SAAS 
+## Middleware With Devaten SAAS 
 This middleware was created to have an easy-to-set-up link between Devaten and Prometheus.
 
 This middleware helps you, the user, monitor your database. Through Devaten and Prometheus, all the relevant information about different tasks performed on your database will be monitored and saved, and this information is easily accessible through the Prometheus and Devaten dashboard.
@@ -148,3 +148,9 @@ When the swagger page is opened the API endpoints can be tested by opening a tab
 ```
 docker-compose down
 ```
+
+ ## Middleware With Devaten On-Premise
+ 
+ ### Run Middleware and On-Premise Docker Compose Locally
+ 
+ Run On-Premise Agent Docker Compose by following the mentioned steps in [OnPremise](http://app.devaten.com/#/docs/onpremises/premises/setup) from Devaten Document Section.
