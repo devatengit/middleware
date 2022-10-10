@@ -1,7 +1,7 @@
 
 # Devaten Middleware Prometheus
 - ### 1. Middleware With Devaten SAAS
-- ### 2. Middleware With Devaten On-Premise
+- ### 2. [Middleware With Devaten On-Premise](#Middleware With Devaten On-Premise)
 
 ## 1. Middleware With Devaten SAAS 
 This middleware was created to have an easy-to-set-up link between Devaten and Prometheus.
@@ -149,7 +149,7 @@ When the swagger page is opened the API endpoints can be tested by opening a tab
 docker-compose down
 ```
 
- ## 2. Middleware With Devaten On-Premise
+ ### 2. Middleware With Devaten On-Premise
  
  ### Run Middleware and On-Premise Docker Compose Locally
  
