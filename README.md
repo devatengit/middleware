@@ -155,7 +155,7 @@ docker-compose down
  
  Run On-Premise Agent Docker Compose by following the mentioned steps in [OnPremise](http://app.devaten.com/#/docs/onpremises/premises/setup) from Devaten Document Section.
 Once its up and running minimize the Command Prompt.
-After that, hit the localhost:8081 in browser. First log in with admin credentials.
+After that, hit the [localhost:8081](http://localhost:8081) in browser. First log in with admin credentials.
 
 ---
 **_ADMIN CREDENTIALS:_**  
@@ -167,3 +167,13 @@ Once You Log in click on Billing tab and select the Package Verification option.
 At the time of signing up for the SAAS application, you received two emails, the Welcome mail, and the Activation Key mail. Verify your Package with this Activation Key.
 
 After activation of your package log out from Admin Account. Now your Dashboard setup is ready for User. To use this application, you need to sign up with your own E-Mail and log in with your credentials, use the application.
+
+ Once You Log in click on Billing tab and select the Package Verification option and verify Package with the same Activation Key which is already verified from Admin.
+ 
+Now you have to Add Agent Click on Agent >> Agent Management >> Add Agent
+To add Agent you need Agent Unique Id that you get from the logs of running on-Premise Agent. For that open cmd and run command-
+```
+docker logs ON-PREMISE AGENT CONTAINER NAME
+```
+
+Then add Application and Configure Datasource. You can refer Devaten documentation to check how to add [Application](https://app.devaten.com/#/docs/config-app) and [Configure Datasource](https://app.devaten.com/#/docs/config-datasource).
