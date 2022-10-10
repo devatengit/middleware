@@ -1,7 +1,7 @@
 
 # Devaten Middleware Prometheus
 - ## 1. [Middleware With Devaten SAAS](#Middleware-With-Devaten-SAAS)
-- ## 2. [Middleware With Devaten On-Premise](#2.-Middleware-With-Devaten-On-Premise)
+- ## 2. [Middleware With Devaten On-Premise](#Middleware-With-Devaten-On-Premise)
 
 ## 1. Middleware With Devaten SAAS 
 This middleware was created to have an easy-to-set-up link between Devaten and Prometheus.
