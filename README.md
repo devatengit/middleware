@@ -158,7 +158,7 @@ Once its up and running minimize the Command Prompt.
 After that, hit the [localhost:8081](http://localhost:8081) in browser. First log in with admin credentials.
 
 ---
-**_ADMIN CREDENTIALS:_**  
+***_ADMIN CREDENTIALS:_*** 
 Username: admin@system.com
 Password: 123456
 ---
