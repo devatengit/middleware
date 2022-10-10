@@ -180,7 +180,14 @@ Then add Application and Configure Datasource. You can refer Devaten documentati
 
 Now Go to the location where you cloned the Middleware. Open ' middleware ' folder that you got when Clone is done of middleware Repository in that you will get 4 files.
 
-[ docker-compose.yml,
-prometheus,
-middleware.env,
-README.md ]
+[ docker-compose.yml, prometheus, middleware.env, README.md ]
+
+Open middleware.env and change the APP_HOST's URL "https://app.devaten.com" to your System "IP Address" with port 8081 and Save it.
+eg. APP_HOST="https://app.devaten.com" --> APP_HOST="http://172.0.0.1:8081"
+
+After that open cmd at that location and run docker-compose commands -
+```
+docker compose pull
+```
+
+``` docker compose up ```
