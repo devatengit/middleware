@@ -154,3 +154,9 @@ docker-compose down
  ### Run Middleware and On-Premise Docker Compose Locally
  
  Run On-Premise Agent Docker Compose by following the mentioned steps in [OnPremise](http://app.devaten.com/#/docs/onpremises/premises/setup) from Devaten Document Section.
+Once its up and running minimize the Command Prompt.
+After that, hit the localhost:8081 in browser. First log in with admin credentials.
+
+**ADMIN CREDENTIALS:_**  
+Username: admin@system.com
+Password: 123456
