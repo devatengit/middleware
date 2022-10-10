@@ -1,9 +1,9 @@
 
 # Devaten Middleware Prometheus
-- ### Middleware With Devaten SAAS
-- ### Middleware With Devaten On-Premise
+- ### 1. Middleware With Devaten SAAS
+- ### 2. Middleware With Devaten On-Premise
 
-## Middleware With Devaten SAAS 
+## 1. Middleware With Devaten SAAS 
 This middleware was created to have an easy-to-set-up link between Devaten and Prometheus.
 
 This middleware helps you, the user, monitor your database. Through Devaten and Prometheus, all the relevant information about different tasks performed on your database will be monitored and saved, and this information is easily accessible through the Prometheus and Devaten dashboard.
@@ -149,7 +149,7 @@ When the swagger page is opened the API endpoints can be tested by opening a tab
 docker-compose down
 ```
 
- ## Middleware With Devaten On-Premise
+ ## 2. Middleware With Devaten On-Premise
  
  ### Run Middleware and On-Premise Docker Compose Locally
  
@@ -177,3 +177,10 @@ docker logs ON-PREMISE AGENT CONTAINER NAME
 ```
 
 Then add Application and Configure Datasource. You can refer Devaten documentation to check how to add [Application](https://app.devaten.com/#/docs/config-app) and [Configure Datasource](https://app.devaten.com/#/docs/config-datasource).
+
+Now Go to the location where you cloned the Middleware. Open ' middleware ' folder that you got when Clone is done of middleware Repository in that you will get 4 files.
+
+[ docker-compose.yml,
+prometheus,
+middleware.env,
+README.md ]
