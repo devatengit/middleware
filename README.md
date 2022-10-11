@@ -183,7 +183,7 @@ Now Go to the location where you cloned the Middleware. Open ' middleware ' fold
 
 Open middleware.env and change the APP_HOST's URL ```https://app.devaten.com``` to ```http://IP-Address:8081``` and Save it.
 
-```eg. APP_HOST="https://app.devaten.com" --> APP_HOST="http://172.0.0.1:8081"```
+```eg. APP_HOST="https://app.devaten.com" --> APP_HOST="http://127.0.0.1:8081"```
 
 After that open cmd at that location and run docker-compose commands -
 ```
