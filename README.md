@@ -162,7 +162,7 @@ After that, hit the [localhost:8081](http://localhost:8081) in browser. First lo
 ```Username: admin@system.com```
 ```Password: 123456```
 
-Once You Log in click on Billing tab and select the Package Verification option.
+Once you Log in click on Billing tab and select the Package Verification option.
 At the time of signing up for the SAAS application, you received two emails, the Welcome mail, and the Activation Key mail. Verify your Package with this Activation Key.
 
 After activation of your package log out from Admin Account. Now your Dashboard setup is ready for User. To use this application, you need to sign up with your own E-Mail and log in with your credentials, use the application.
