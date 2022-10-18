@@ -71,7 +71,7 @@ If the image is ever shut down, you must log in again when you restart the progr
 ### Start Recording
 
 ```ruby
-localhost:8999/Start/{Usecase name}/{Application Identifier}
+localhost:8999/Start/{Usecase Name}/{Application Identifier}
 ```
 
 **Usecase name** can be anything that you choose.
@@ -81,7 +81,7 @@ localhost:8999/Start/{Usecase name}/{Application Identifier}
 ### Stop Recording
 
 ```ruby
-localhost:8999/Stop/{Usecase name}/{Application Identifier}
+localhost:8999/Stop/{Usecase Name}/{Application Identifier}
 ```
 
 **Usecase name** has to be the same as the name used to start the recording.
@@ -171,7 +171,7 @@ After activation of your package log out from Admin Account. Now your Dashboard 
  
 Now you have to Add Agent Click on Agent >> Agent Management >> Add Agent
 To add Agent you need Agent Unique Id that you get from the logs of running on-Premise Agent. For that open cmd and run command-
-```
+```ruby
 docker logs ON-PREMISE AGENT CONTAINER NAME
 ```
 
@@ -181,7 +181,7 @@ Now Go to the location where you cloned the Middleware. Open ' middleware ' fold
 
 [ docker-compose.yml, prometheus, middleware.env, README.md ]
 
-Open middleware.env and change the APP_HOST's URL ```https://app.devaten.com``` to ```http://IP-Address:8081``` and Save it.
+Open middleware.env and change the APP_HOST's URL ```ruby https://app.devaten.com``` to ```ruby http://IP-Address:8081``` and Save it.
 
 ```eg. APP_HOST="https://app.devaten.com" --> APP_HOST="http://127.0.0.1:8081"```
 
