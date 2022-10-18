@@ -197,7 +197,6 @@ docker compose up
 To run docker containers
 
 Once its up and running it shows 
-```ruby 
-Listening and serving HTTP on :8999```
+```Listening and serving HTTP on :8999```
 
 Now you can Login and do Start/Stop Recordings using Middleware. For that follow the steps mentioned in [How To Use](#How-to-Use) of Middleware with Devaten SAAS.
