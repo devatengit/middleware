@@ -181,7 +181,7 @@ Now Go to the location where you cloned the Middleware. Open ' middleware ' fold
 
 [ docker-compose.yml, prometheus, middleware.env, README.md ]
 
-Open middleware.env and change the APP_HOST's URL ```ruby https://app.devaten.com``` to ```ruby http://IP-Address:8081``` and Save it.
+Open middleware.env and change the APP_HOST's URL ```https://app.devaten.com``` to ```http://IP-Address:8081``` and Save it.
 
 ```eg. APP_HOST="https://app.devaten.com" --> APP_HOST="http://127.0.0.1:8081"```
 
@@ -196,6 +196,8 @@ docker compose up
 ```
 To run docker containers
 
-Once its up and running it shows ```Listening and serving HTTP on :8999```
+Once its up and running it shows 
+```ruby 
+Listening and serving HTTP on :8999```
 
 Now you can Login and do Start/Stop Recordings using Middleware. For that follow the steps mentioned in [How To Use](#How-to-Use) of Middleware with Devaten SAAS.
