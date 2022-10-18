@@ -18,7 +18,7 @@ To install the middleware locally, you must have git, docker, and docker-compose
 
 To get the Middleware Docker Compose File you have to clone the git Middleware Repository using the following:
 
-```
+```ruby
 git clone https://github.com/devatengit/middleware.git
 ```
 
@@ -31,7 +31,7 @@ Go inside the cloned folder named middleware which contains the above three file
 
 Open Command Prompt and run command 
 
-```
+```ruby
 docker-compose pull
 ```  
 
@@ -39,7 +39,7 @@ This will download the docker images locally.
 
 Then run
 
-```
+```ruby
 docker-compose up
 ```
 
@@ -57,7 +57,7 @@ Once the middleware is up and running, you can do the following API calls, API c
 
 ### Login
 
-```
+```ruby
 localhost:8999/Login/{Devaten Username}/{Devaten Password}
 ```
 eg. localhost:8999/Login/abc@gmail.com/123456
@@ -70,7 +70,7 @@ If the image is ever shut down, you must log in again when you restart the progr
 
 ### Start Recording
 
-```
+```ruby
 localhost:8999/Start/{Usecase name}/{Application Identifier}
 ```
 
@@ -80,7 +80,7 @@ localhost:8999/Start/{Usecase name}/{Application Identifier}
 
 ### Stop Recording
 
-```
+```ruby
 localhost:8999/Stop/{Usecase name}/{Application Identifier}
 ```
 
@@ -145,7 +145,7 @@ When the swagger page is opened the API endpoints can be tested by opening a tab
 
 ## How to Stop Containers
 
-```
+```ruby
 docker-compose down
 ```
 
